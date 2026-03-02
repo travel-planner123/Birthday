@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ffe4ec"/>
+  <circle cx="220" cy="620" r="130" fill="#fff" opacity="0.42"/>
+  <text x="600" y="390" fill="#8d4b4e" font-size="58" text-anchor="middle" font-family="Arial">Memory 3</text>
+  <text x="600" y="470" fill="#8d4b4e" font-size="34" text-anchor="middle" font-family="Arial">Replace with your image</text>
+</svg>

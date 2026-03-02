@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Riya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <div class="orb orb-c"></div>
+
+  <header class="hero reveal">
+    <div class="hero-copy">
+      <!-- <p class="eyebrow">March 3 Birthday Celebration</p> -->
+      <h1>For <span>Riyaa</span>, with all my heart</h1>
+      <p id="typedLine" class="typed-line"></p>
+      <div class="hero-actions">
+        <button id="surpriseBtn" class="btn">Open Birthday Surprise</button>
+        <a class="btn btn-ghost" href="#gallery">See Our Moments</a>
+      </div>
+    </div>
+    <div class="hero-polaroid tilt" data-tilt>
+      <img src="images/1.jpeg" alt="Romantic placeholder" />
+      <p>My forever favorite person</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="reveal" id="gallery">
+      <div class="section-head">
+        <h2>Memory Gallery</h2>
+        <!-- <p>Using local dummy images now. I will replace them with your photos later.</p> -->
+      </div>
+
+      <div class="gallery-shell card">
+        <button id="prevSlide" class="icon-btn" aria-label="Previous photo">&#8592;</button>
+        <div class="gallery-track-wrap">
+          <div class="gallery-track" id="galleryTrack">
+            <figure class="gallery-item">
+              <img src="images/2.jpeg" alt="Placeholder memory 1" data-caption="A day that felt like a movie." />
+              <figcaption>In your smile, I see my peace.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/3.jpeg" alt="Placeholder memory 2" data-caption="Every smile of yours is home." />
+              <figcaption>Us — simple, real, perfect</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/4.jpeg" alt="Placeholder memory 3" data-caption="Our best moments are simple." />
+              <figcaption>Some moments deserve to be paused.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/5.jpeg" alt="Placeholder memory 4" data-caption="With you, time becomes beautiful." />
+              <figcaption>With you, time becomes beautiful.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <button id="nextSlide" class="icon-btn" aria-label="Next photo">&#8594;</button>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="lightbox" class="modal" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+    <div class="modal-panel modal-photo">
+      <button id="closeLightbox" class="icon-btn icon-close" aria-label="Close photo">x</button>
+      <img id="lightboxImg" src="" alt="Expanded memory" />
+      <p id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <div id="surpriseModal" class="modal" aria-hidden="true" role="dialog" aria-label="Birthday surprise">
+    <div class="modal-panel">
+      <h3>Happy Birthday, Riyaaa</h3>
+      <p>
+        You are my favorite hello, my safest place, and my happiest feeling.
+        I love you more every day.
+      </p>
+      <button id="closeModal" class="btn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

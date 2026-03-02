@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffd1bf"/>
+      <stop offset="100%" stop-color="#ff98ab"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="240" cy="170" r="120" fill="#fff2ea" opacity="0.45"/>
+  <circle cx="980" cy="620" r="170" fill="#ffffff" opacity="0.35"/>
+  <text x="600" y="410" fill="#6b2e3a" font-size="72" text-anchor="middle" font-family="Arial">Riya</text>
+  <text x="600" y="490" fill="#6b2e3a" font-size="40" text-anchor="middle" font-family="Arial">Your Photo Goes Here</text>
+</svg>
